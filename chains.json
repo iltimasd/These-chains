@@ -1,0 +1,19 @@
+{
+  "nodes": [
+    {"id": "Hot Chip", "group": 0},
+    {"id": "Alexis Taylor", "group": 1},
+    {"id": "Joe Goddard", "group": 1},
+    {"id":"Owen Clarke","group":1},
+    {"id":"Al Doyle","group":1},
+    {"id":"Felix Martin","group":1},
+    {"id":"Sarah Jones","group":1}
+  ],
+  "links": [
+    {"source":"Hot Chip","target": "Alexis Taylor", "value": 1},
+    {"source":"Hot Chip","target": "Joe Goddard", "value": 1},
+    {"source":"Hot Chip","target":"Owen Clarke","value":1},
+    {"source":"Hot Chip","target":"Al Doyle","value":1},
+    {"source":"Hot Chip","target":"Felix Martin","value":1},
+    {"source":"Hot Chip","target":"Sarah Jones","value":1}
+  ]
+}
