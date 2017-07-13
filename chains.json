@@ -1,19 +1,60 @@
 {
   "nodes": [
-    {"id": "Hot Chip", "group": 0},
-    {"id": "Alexis Taylor", "group": 1},
-    {"id": "Joe Goddard", "group": 1},
-    {"id":"Owen Clarke","group":1},
-    {"id":"Al Doyle","group":1},
-    {"id":"Felix Martin","group":1},
-    {"id":"Sarah Jones","group":1}
+    {"id":"DFA", "group":3}
+    ,{"id":"Moshi Moshi","group":3}
+    ,{"id": "Hot Chip", "group": 2}
+    ,{"id": "Alexis Taylor", "group": 0}
+    ,{"id": "Joe Goddard", "group": 0}
+    ,{"id":"Owen Clarke","group":1}
+    ,{"id":"Al Doyle","group":1}
+    ,{"id":"Felix Martin","group":1}
+    ,{"id":"Sarah Jones","group":1}
+    ,{"id":"LCD Soundsystem","group":2}
+    ,{"id":"Nancy Whang","group":1}
+    ,{"id":"Pat Mahoney","group":1}
+    ,{"id":"Tyler Pope","group":1}
+    ,{"id":"David Scott Stone","group":1}
+    ,{"id":"Matt Thornley","group":1}
+    ,{"id":"Gavin Russom","group":1}
+    ,{"id":"Phil Skarich ","group":1}
+    ,{"id":"Jerry Fuchs","group":1}
+    ,{"id":"Phil Mossman","group":1}
+    ,{"id":"J.D. Mark","group":1}
+    ,{"id":"Museum of Love", "group":2}
+    ,{"id":"Deniss McNany","group":1}
+    ,{"id":"The 2 Bears","group":2}
+    ,{"id":"Raf Rundell","group":1}
+
+
   ],
   "links": [
-    {"source":"Hot Chip","target": "Alexis Taylor", "value": 1},
-    {"source":"Hot Chip","target": "Joe Goddard", "value": 1},
-    {"source":"Hot Chip","target":"Owen Clarke","value":1},
-    {"source":"Hot Chip","target":"Al Doyle","value":1},
-    {"source":"Hot Chip","target":"Felix Martin","value":1},
-    {"source":"Hot Chip","target":"Sarah Jones","value":1}
+    {"source":"DFA","target":"LCD Soundsystem"}
+    ,{"source":"DFA","target":"Hot Chip"}
+    ,{"source":"DFA","target":"Museum of Love"}
+    ,{"source":"DFA","target":"The 2 Bears"}
+    ,{"source":"DFA","target":"Joe Goddard"}
+    ,{"source":"Moshi Moshi","target":"Alexis Taylor"}
+    ,{"source":"Hot Chip","target": "Alexis Taylor", "value": 1}
+    ,{"source":"Hot Chip","target": "Joe Goddard", "value": 1}
+    ,{"source":"Hot Chip","target":"Owen Clarke","value":1}
+    ,{"source":"Hot Chip","target":"Al Doyle","value":1}
+    ,{"source":"Hot Chip","target":"Felix Martin","value":1}
+    ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
+    ,{"source":"LCD Soundsystem","target":"Al Doyle","value":1}
+    ,{"source":"LCD Soundsystem","target":"Nancy Whang","value":1}
+    ,{"source":"LCD Soundsystem","target":"Pat Mahoney","value":1}
+    ,{"source":"LCD Soundsystem","target":"Tyler Pope","value":1}
+    ,{"source":"LCD Soundsystem","target":"David Scott Stone","value":1}
+    ,{"source":"LCD Soundsystem","target":"Matt Thornley","value":1}
+    ,{"source":"LCD Soundsystem","target":"Gavin Russom","value":1}
+    ,{"source":"LCD Soundsystem","target":"Phil Skarich ","value":1}
+    ,{"source":"LCD Soundsystem","target":"Jerry Fuchs","value":1}
+    ,{"source":"LCD Soundsystem","target":"Phil Mossman","value":1}
+    ,{"source":"LCD Soundsystem","target":"J.D. Mark","value":1}
+    ,{"source":"Museum of Love", "target":"Pat Mahoney"}
+    ,{"source":"Museum of Love","target":"Deniss McNany"}
+    ,{"source":"The 2 Bears", "target":"Joe Goddard"}
+    ,{"source":"The 2 Bears", "target":"Raf Rundell"}
+    
   ]
 }
