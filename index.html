@@ -1,7 +1,14 @@
 <!DOCTYPE html>
+<html>
+<head>
 <meta charset="utf-8">
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+
 text {
+    font-family: 'Raleway', sans-serif;
+
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -21,6 +28,7 @@ text {
 }
 
 </style>
+</head>
 <svg width="960" height="600"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
@@ -55,20 +63,24 @@ d3.json("./chains.json", function(error, graph) {
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
-          .on("end", dragended));
+          .on("end", dragended))
+      ;
   
-  var g = svg.append("g");
+  //var g = svg.append("g");
 
-var texts = svg.selectAll("text.label")
+var texts = svg.append("g")
+                .attr("class","labels")
+                .selectAll("text.label")
                 .data(graph.nodes)
                 .enter().append("text")
                 .attr("class", "label")
                 .attr("fill", "black")
+                .attr("dx", function(d){return 9})
                 .text(function(d) {  return d.id;  });
 
-  node.append("title")
-      .attr("dx", function(d){return -20})
-      .text(function(d) { return d.id; });
+  // node.append("title")
+  //     .attr("dx", function(d){return -20})
+  //     .text(function(d) { return d.id; });
 
   simulation
       .nodes(graph.nodes)
@@ -76,6 +88,8 @@ var texts = svg.selectAll("text.label")
 
   simulation.force("link")
       .links(graph.links);
+
+var player =node.node().append(document.createElement("div"));
 
   function ticked() {
     link
@@ -115,3 +129,4 @@ function dragended(d) {
 }
 
 </script>
+</html>
