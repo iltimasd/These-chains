@@ -1,8 +1,9 @@
 {
+
   "nodes": [
     {"id":"DFA", "group":3}
     ,{"id":"Moshi Moshi","group":3}
-    ,{"id": "Hot Chip", "group": 2}
+    ,{"id": "Hot Chip", "group": 2, "src":"https://open.spotify.com/embed?uri=spotify:track:0WRBqQcmnZbnLTiFG3Ohqj"}
     ,{"id": "Alexis Taylor", "group": 0}
     ,{"id": "Joe Goddard", "group": 0}
     ,{"id":"Owen Clarke","group":1}
@@ -11,11 +12,12 @@
     ,{"id":"Sarah Jones","group":1}
     ,{"id":"LCD Soundsystem","group":2}
     ,{"id":"Nancy Whang","group":1}
+    ,{"id":"James Murphy","group":1}
     ,{"id":"Pat Mahoney","group":1}
     ,{"id":"Tyler Pope","group":1}
     ,{"id":"David Scott Stone","group":1}
     ,{"id":"Matt Thornley","group":1}
-    ,{"id":"Gavin Russom","group":1}
+    ,{"id":"Gavin Russom","group":0}
     ,{"id":"Phil Skarich ","group":1}
     ,{"id":"Jerry Fuchs","group":1}
     ,{"id":"Phil Mossman","group":1}
@@ -33,6 +35,7 @@
     ,{"source":"DFA","target":"Museum of Love"}
     ,{"source":"DFA","target":"The 2 Bears"}
     ,{"source":"DFA","target":"Joe Goddard"}
+    ,{"source":"DFA","target":"Gavin Russom"}
     ,{"source":"Moshi Moshi","target":"Alexis Taylor"}
     ,{"source":"Hot Chip","target": "Alexis Taylor", "value": 1}
     ,{"source":"Hot Chip","target": "Joe Goddard", "value": 1}
@@ -42,6 +45,7 @@
     ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
     ,{"source":"LCD Soundsystem","target":"Al Doyle","value":1}
     ,{"source":"LCD Soundsystem","target":"Nancy Whang","value":1}
+    ,{"source":"LCD Soundsystem","target":"James Murphy","value":1}    
     ,{"source":"LCD Soundsystem","target":"Pat Mahoney","value":1}
     ,{"source":"LCD Soundsystem","target":"Tyler Pope","value":1}
     ,{"source":"LCD Soundsystem","target":"David Scott Stone","value":1}

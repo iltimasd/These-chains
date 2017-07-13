@@ -26,12 +26,23 @@ text {
   stroke: #fff;
   stroke-width: 1.5px;
 }
-
+.sidebar {
+     position: fixed;
+   }
 </style>
 </head>
+<body>
+
+<div class="sidebar">
+<iframe class="frame" src="" width="250" height="80" frameborder="5" allowtransparency="true"></iframe>
+</iframe>
+</div>
+
 <svg width="960" height="600"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
+
+
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
@@ -115,6 +126,11 @@ function dragstarted(d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
   d.fx = d.x;
   d.fy = d.y;
+  if(d.group!=3){
+  d3.select(".frame")
+  .attr("src",d.src)
+  ;
+}
 }
 
 function dragged(d) {
@@ -129,4 +145,5 @@ function dragended(d) {
 }
 
 </script>
+</body>
 </html>
