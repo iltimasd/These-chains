@@ -4,30 +4,33 @@
     {"id":"DFA", "group":3}
     ,{"id":"Moshi Moshi","group":3}
     ,{"id": "Hot Chip", "group": 2, "src":"https://open.spotify.com/embed?uri=spotify:track:0WRBqQcmnZbnLTiFG3Ohqj"}
-    ,{"id": "Alexis Taylor", "group": 0}
-    ,{"id": "Joe Goddard", "group": 0}
+    ,{"id": "Alexis Taylor", "group": 0, "src":"https://open.spotify.com/embed?uri=spotify:track:60VMigpKdkZ4oRtdDbfQGR"}
+    ,{"id": "Joe Goddard", "group": 0, "src":"https://open.spotify.com/embed?uri=spotify:track:61ApmtpgTkS74VHagY0piE"}
     ,{"id":"Owen Clarke","group":1}
     ,{"id":"Al Doyle","group":1}
     ,{"id":"Felix Martin","group":1}
     ,{"id":"Sarah Jones","group":1}
-    ,{"id":"LCD Soundsystem","group":2}
+    ,{"id":"LCD Soundsystem","group":2, "src":"https://open.spotify.com/embed?uri=spotify:track:1XlDNpWy8dyEljyRd0RC2J"}
     ,{"id":"Nancy Whang","group":1}
     ,{"id":"James Murphy","group":1}
     ,{"id":"Pat Mahoney","group":1}
-    ,{"id":"Tyler Pope","group":1}
     ,{"id":"David Scott Stone","group":1}
+    ,{"id":"Tyler Pope","group":1}
     ,{"id":"Matt Thornley","group":1}
-    ,{"id":"Gavin Russom","group":0}
+    ,{"id":"Gavin Russom","group":0,"src":"https://open.spotify.com/embed?uri=spotify:track:4MLs7sHGgCrAxTDytyf4cm"}
     ,{"id":"Phil Skarich ","group":1}
     ,{"id":"Jerry Fuchs","group":1}
     ,{"id":"Phil Mossman","group":1}
     ,{"id":"J.D. Mark","group":1}
-    ,{"id":"Museum of Love", "group":2}
+    ,{"id":"Museum of Love", "group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:0W3qmobCsSJDxxzV1AWDtW"}
     ,{"id":"Deniss McNany","group":1}
-    ,{"id":"The 2 Bears","group":2}
+    ,{"id":"The 2 Bears","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:4ze2R3Zh4JWAtiHfkLVCS8"}
     ,{"id":"Raf Rundell","group":1}
-
-
+    ,{"id":"The Juan MacLean","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:7noMnBSQQMD10TkUvMmlsn"}
+    ,{"id":"John MacLean","group":1}
+    ,{"id":"Technology + Teamwork","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:4eHfZxv0ohYLtQm6lrOcCb"}
+    ,{"id":"Anthony Silvester","group":1}
+    ,{"id":"New Build","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:1yEnnr4axymQu6rMEH7o1W"}
   ],
   "links": [
     {"source":"DFA","target":"LCD Soundsystem"}
@@ -36,13 +39,14 @@
     ,{"source":"DFA","target":"The 2 Bears"}
     ,{"source":"DFA","target":"Joe Goddard"}
     ,{"source":"DFA","target":"Gavin Russom"}
+    ,{"source":"DFA","target":"The Juan MacLean"}
     ,{"source":"Moshi Moshi","target":"Alexis Taylor"}
     ,{"source":"Hot Chip","target": "Alexis Taylor", "value": 1}
+        ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
     ,{"source":"Hot Chip","target": "Joe Goddard", "value": 1}
     ,{"source":"Hot Chip","target":"Owen Clarke","value":1}
     ,{"source":"Hot Chip","target":"Al Doyle","value":1}
     ,{"source":"Hot Chip","target":"Felix Martin","value":1}
-    ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
     ,{"source":"LCD Soundsystem","target":"Al Doyle","value":1}
     ,{"source":"LCD Soundsystem","target":"Nancy Whang","value":1}
     ,{"source":"LCD Soundsystem","target":"James Murphy","value":1}    
@@ -59,6 +63,12 @@
     ,{"source":"Museum of Love","target":"Deniss McNany"}
     ,{"source":"The 2 Bears", "target":"Joe Goddard"}
     ,{"source":"The 2 Bears", "target":"Raf Rundell"}
-    
+    ,{"source":"The Juan MacLean", "target":"John MacLean"}
+    ,{"source":"The Juan MacLean", "target":"Nancy Whang"}
+    ,{"source":"Technology + Teamwork", "target":"Sarah Jones"}
+    ,{"source":"Technology + Teamwork", "target":"Anthony Silvester"}
+    ,{"source":"New Build","target":"Felix Martin"}
+    ,{"source":"New Build","target":"Al Doyle"}
+
   ]
 }
