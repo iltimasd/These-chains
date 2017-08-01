@@ -31,6 +31,9 @@
     ,{"id":"Technology + Teamwork","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:4eHfZxv0ohYLtQm6lrOcCb"}
     ,{"id":"Anthony Silvester","group":1}
     ,{"id":"New Build","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:1yEnnr4axymQu6rMEH7o1W"}
+    ,{"id":"NZCA LINES","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:4apipt30PCKjGlgnhUcVUP"}
+    ,{"id":"Michael Lovett","group":1}
+    ,{"id":"Charlotte Hatherly","group":1}
   ],
   "links": [
     {"source":"DFA","target":"LCD Soundsystem"}
@@ -42,7 +45,7 @@
     ,{"source":"DFA","target":"The Juan MacLean"}
     ,{"source":"Moshi Moshi","target":"Alexis Taylor"}
     ,{"source":"Hot Chip","target": "Alexis Taylor", "value": 1}
-        ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
+    ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
     ,{"source":"Hot Chip","target": "Joe Goddard", "value": 1}
     ,{"source":"Hot Chip","target":"Owen Clarke","value":1}
     ,{"source":"Hot Chip","target":"Al Doyle","value":1}
@@ -69,6 +72,8 @@
     ,{"source":"Technology + Teamwork", "target":"Anthony Silvester"}
     ,{"source":"New Build","target":"Felix Martin"}
     ,{"source":"New Build","target":"Al Doyle"}
-
+    ,{"source":"NZCA LINES","target":"Sarah Jones"}
+    ,{"source":"NZCA LINES","target":"Michael Lovett"}
+    ,{"source":"NZCA LINES","target":"Charlotte Hatherly"}
   ]
 }
