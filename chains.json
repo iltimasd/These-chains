@@ -44,6 +44,7 @@
     ,{"source":"DFA","target":"Gavin Russom"}
     ,{"source":"DFA","target":"The Juan MacLean"}
     ,{"source":"Moshi Moshi","target":"Alexis Taylor"}
+    ,{"source":"Moshi Moshi","target":"Sarah Jones"}
     ,{"source":"Hot Chip","target": "Alexis Taylor", "value": 1}
     ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
     ,{"source":"Hot Chip","target": "Joe Goddard", "value": 1}
