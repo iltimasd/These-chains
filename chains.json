@@ -3,9 +3,10 @@
   "nodes": [
     {"id":"DFA", "group":3}
     ,{"id":"Moshi Moshi","group":3}
-    ,{"id": "Hot Chip", "group": 2, "src":"https://open.spotify.com/embed?uri=spotify:track:0WRBqQcmnZbnLTiFG3Ohqj"}
-    ,{"id": "Alexis Taylor", "group": 0, "src":"https://open.spotify.com/embed?uri=spotify:track:60VMigpKdkZ4oRtdDbfQGR"}
-    ,{"id": "Joe Goddard", "group": 0, "src":"https://open.spotify.com/embed?uri=spotify:track:61ApmtpgTkS74VHagY0piE"}
+    ,{"id":"Greco-Roman","group":3}
+    ,{"id":"Hot Chip", "group": 2, "src":"https://open.spotify.com/embed?uri=spotify:track:0WRBqQcmnZbnLTiFG3Ohqj"}
+    ,{"id":"Alexis Taylor", "group": 0, "src":"https://open.spotify.com/embed?uri=spotify:track:60VMigpKdkZ4oRtdDbfQGR"}
+    ,{"id":"Joe Goddard", "group": 0, "src":"https://open.spotify.com/embed?uri=spotify:track:61ApmtpgTkS74VHagY0piE"}
     ,{"id":"Owen Clarke","group":1}
     ,{"id":"Al Doyle","group":1}
     ,{"id":"Felix Martin","group":1}
@@ -45,6 +46,7 @@
     ,{"source":"DFA","target":"The Juan MacLean"}
     ,{"source":"Moshi Moshi","target":"Alexis Taylor"}
     ,{"source":"Moshi Moshi","target":"Sarah Jones"}
+    ,{"source":"Greco-Roman","target":"Joe Goddard"}
     ,{"source":"Hot Chip","target": "Alexis Taylor", "value": 1}
     ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
     ,{"source":"Hot Chip","target": "Joe Goddard", "value": 1}
