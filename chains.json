@@ -1,9 +1,9 @@
 {
-
   "nodes": [
     {"id":"DFA", "group":3}
     ,{"id":"Moshi Moshi","group":3}
     ,{"id":"Greco-Roman","group":3}
+    ,{"id":"Geej","group":3}
     ,{"id":"Hot Chip", "group": 2, "src":"https://open.spotify.com/embed?uri=spotify:track:0WRBqQcmnZbnLTiFG3Ohqj"}
     ,{"id":"Alexis Taylor", "group": 0, "src":"https://open.spotify.com/embed?uri=spotify:track:60VMigpKdkZ4oRtdDbfQGR"}
     ,{"id":"Joe Goddard", "group": 0, "src":"https://open.spotify.com/embed?uri=spotify:track:61ApmtpgTkS74VHagY0piE"}
@@ -35,6 +35,14 @@
     ,{"id":"NZCA LINES","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:4apipt30PCKjGlgnhUcVUP"}
     ,{"id":"Michael Lovett","group":1}
     ,{"id":"Charlotte Hatherly","group":1}
+    ,{"id":"Greco-Roman Soundsystem","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:4DATfC785Rh87SwzkVkkEB"}
+    ,{"id":"Alexander Waldron","group":0}
+    ,{"id":"Dominic Mentsh","group":4}
+    ,{"id":"A Pulse Train","group":2,"src":"https://open.spotify.com/embed?uri=spotify:track:3YnB06Rta3aTYSMJHiBZOC"}
+    ,{"id":"Jeremy Greenspan","group":0,"src":"https://open.spotify.com/embed?uri=spotify:track:7kQcrxfjNZs6kh4PsZmNZw"}
+    ,{"id":"Sam Shepherd","group":0,"src":"https://open.spotify.com/embed?uri=spotify:track:3vwtKHxEYG6jjcmoEk8J6q"}
+    ,{"id":"Dan Snaith","group":0,"src":"https://open.spotify.com/embed?uri=spotify:track:3D1P3oPecqAQy2u33gAhsM"}
+    ,{"id":"James Shaw","group":0,"src":"https://open.spotify.com/embed?uri=spotify:track:2EHJ6ZojCLRuEoTf3YsmnB"}
   ],
   "links": [
     {"source":"DFA","target":"LCD Soundsystem"}
@@ -44,9 +52,13 @@
     ,{"source":"DFA","target":"Joe Goddard"}
     ,{"source":"DFA","target":"Gavin Russom"}
     ,{"source":"DFA","target":"The Juan MacLean"}
+    ,{"source":"Moshi Moshi","target":"Hot Chip"}
     ,{"source":"Moshi Moshi","target":"Alexis Taylor"}
     ,{"source":"Moshi Moshi","target":"Sarah Jones"}
     ,{"source":"Greco-Roman","target":"Joe Goddard"}
+    ,{"source":"Greco-Roman","target":"Greco-Roman Soundsystem"}
+    ,{"source":"Geej","target":"A Pulse Train"}
+    ,{"source":"Geej","target":"Jeremy Greenspan"}
     ,{"source":"Hot Chip","target": "Alexis Taylor", "value": 1}
     ,{"source":"Hot Chip","target":"Sarah Jones","value":1}
     ,{"source":"Hot Chip","target": "Joe Goddard", "value": 1}
@@ -78,5 +90,13 @@
     ,{"source":"NZCA LINES","target":"Sarah Jones"}
     ,{"source":"NZCA LINES","target":"Michael Lovett"}
     ,{"source":"NZCA LINES","target":"Charlotte Hatherly"}
+    ,{"source":"Greco-Roman Soundsystem","target":"Alexander Waldron"}
+    ,{"source":"Greco-Roman Soundsystem","target":"Dominic Mentsh"}
+    ,{"source":"Greco-Roman Soundsystem","target":"Joe Goddard"}
+    ,{"source":"A Pulse Train","target":"Joe Goddard"}
+    ,{"source":"A Pulse Train","target":"Jeremy Greenspan"}
+    ,{"source":"A Pulse Train","target":"Sam Shepherd"}
+    ,{"source":"A Pulse Train","target":"Dan Snaith"}
+    ,{"source":"A Pulse Train","target":"James Shaw"}
   ]
 }
